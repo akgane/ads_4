@@ -1,8 +1,14 @@
+package classes;
+
 public class MyEdge<Vertex> {
     private Vertex source;
     private Vertex dest;
     private Double weight;
 
+    public MyEdge(Vertex source, Vertex dest){
+        this.source = source;
+        this.dest = dest;
+    }
     public MyEdge(Vertex source, Vertex dest, Double weight){
         this.source = source;
         this.dest = dest;
